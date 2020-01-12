@@ -1,0 +1,19 @@
+label{
+    width: 150px;
+    float: left;
+}
+form{
+    width: 30%;
+    margin: auto;
+    color: red;
+    
+}
+#btn{
+    color: blue;
+    width: 50%;
+    
+    
+}
+#field{
+    background-color: cyan;
+}

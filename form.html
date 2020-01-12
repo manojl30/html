@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css"> 
+    <title>Document</title>
+</head>
+
+<body>
+    <form >
+        <caption>Register Form</caption><br />
+        <fieldset id="field">
+            <label>Name :</label>
+            <input type="text" name="name"><br /><br>
+            <label>Email :</label>
+            <input type="email" name="email"><br /><br>
+            <label>Mobile No. :</label>
+            <input type="tel" name="mobile"><br /><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female<br/><br>
+            <label>Cource :</label>
+            <select name="cource">
+                <option value="">Select an option</option>
+                <option value="BE">BE</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="MSE">MSE</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+            </select><br/><br>
+            <label>Select multioption</label>
+            <select name="mul" multiple>
+                <option value="">abc</option>
+                <option value="">abc</option>
+                <option value="">abc</option>
+                <option value="">abc</option>
+                <option value="">abc</option>
+                <option value="">abc</option>
+            </select><br/><br>
+            <label>Descripation: </label>
+            <textarea name="des"></textarea><br/>
+            <input id="btn" type="button" name="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
